@@ -5,7 +5,7 @@
 First install all the dependencies with
 
 ```bash
-npm i
+npm i  # yarn
 ```
 
 You can run the server with
@@ -17,7 +17,7 @@ npm run dev  # yarn dev
 Additionally, storybook can be started with
 
 ```bash
-npm run storybook  #
+npm run storybook  # yarn storybook
 ```
 
 ## Objective

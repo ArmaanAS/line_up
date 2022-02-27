@@ -1,0 +1,22 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #root {
+    @apply bg-slate-100 dark:bg-slate-800 min-h-screen transition-all;
+  }
+}
+
+@layer components {
+
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0px 0 4px #000a;
+  }
+}
