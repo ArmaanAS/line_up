@@ -1,5 +1,21 @@
 # Line-Up Frontend Engineer Task
 
+## Intro
+
+The frontend uses:
+- __Vite__ — for the backend host server
+- __TailwindCSS__ — for styling
+- __HeadlessUI__ — for fully accessible components
+- __Storybook__ — for component management
+
+I've used __Vite server__ for all my React / Vue.js project over Create-React-App as it has really __fast hot reloading__ and is lightweight and modern. It works the same for all intents and purposes.
+
+__TailwindCSS__ is the styling library i'm most familiar with but I did end up including a mix of regular CSS with TailwindCSS. I designed a __light and dark theme__ within every component just using the builtin Tailwind classes. I modified the config slightly, adding some custom shadows and fonts.
+
+__HeadlessUI__ is just used for it's popover component.
+
+I was intrigued by __Storybook__ that you were using so after I had the initial design created, I installed and tried it out. Only the custom theme button and the header components are documented in Storybook because I just didn't have enough time to work on it. By admission, this isn't very impressive but I wish to explore it further and in future projects.
+
 ## Run
 
 First install all the dependencies with
@@ -19,6 +35,8 @@ Additionally, storybook can be started with
 ```bash
 npm run storybook  # yarn storybook
 ```
+
+
 
 ## Objective
 
